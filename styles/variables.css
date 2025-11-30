@@ -1,19 +1,27 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-
-
 :root {
-    --basic-font: 'Inter-Variable';
-    --pixel-font: 'PressStart2P';
-    --slim-font-weight: 400;
-    --bold-font-weight: 700;
-    --background-color: #FFF;
-    --text-color: #000;
-    --element-width: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
-    --gradient-color-first: #d3d3d3;
-    --gradient-color-second: #e7e7e7;
-    --gradient-color-third: #1a1a1a;
-    --difference-text-color: #fff;
-    --difference-background-color: #fff;
-    --contour-color: #000;
-    --core-color: #ff0000;
+	--regular-font: 'Inter-Variable';
+	--accent-font: 'PressStart2P';
+
+	--card-title-weight:700;
+  	--card-text-weight:400;
+
+	--bg-color: #fff;
+	--accent-color: #000;
+	--text-size:18px;
+     
+	--header-padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) ;
+	--title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+	--header-text-size:  clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+	--container-width: clamp(23.4375rem, 16.2852rem + 30.5164svi, 43.75rem);
+
+	--page-bg-image:
+        repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        repeating-linear-gradient(180deg,#d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        linear-gradient(180deg, #e7e7e7 0%,#e7e7e7 0.01%,#1a1a1a 100%);
+
+	--backdrop-color: rgb(0 0 0 / 0.75);
+
+	--contour-color: #000;
+	--heart-core-color: #fff;
+	--sparks-color: #ff0000;
 }
