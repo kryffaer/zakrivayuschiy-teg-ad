@@ -1,27 +1,16 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-	--regular-font: 'Inter-Variable';
-	--accent-font: 'PressStart2P';
-
-	--card-title-weight:700;
-  	--card-text-weight:400;
-
-	--bg-color: #fff;
-	--accent-color: #000;
-	--text-size:18px;
-     
-	--header-padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) ;
-	--title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-	--header-text-size:  clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-	--container-width: clamp(23.4375rem, 16.2852rem + 30.5164svi, 43.75rem);
-
-	--page-bg-image:
-        repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
-        repeating-linear-gradient(180deg,#d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
-        linear-gradient(180deg, #e7e7e7 0%,#e7e7e7 0.01%,#1a1a1a 100%);
-
-	--backdrop-color: rgb(0 0 0 / 0.75);
-
-	--contour-color: #000;
-	--heart-core-color: #fff;
-	--sparks-color: #ff0000;
+  --main-font: "inter-Variable", sans-serif;
+  --accent-font: "PresStart2P", sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --Themes-background: #FFFFFF;
+  --Themes-mainColor: #000000;
+  --background-color: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px ),
+  linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --heart-contour: black;
+  --heart-main-body:#FF0000;
+  --heart-core:white;
+  --heart-sparks: #FF0000;
 }
